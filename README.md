@@ -53,8 +53,30 @@ DB_PORT=5432
 ```
 
 🐳 3. Subir os containers
-
+```
 docker-compose up --build
+```
+🔗 4. Acessar a aplicação
+```Acesse no navegador: http://localhost:8000
+```
+🐘 Acesso ao banco PostgreSQL (opcional)
+
+Host: localhost
+Porta: 5432
+Usuário: postgres
+Senha: postgres
+Banco: weatherdb
+
+🗑️ Parar os containers
+```
+docker-compose down
+```
+
+✅ Melhorias Futuras
+⏰ Previsão horária e semanal
+🗺️ Localização automática por IP
+🎨 Interface responsiva e aprimorada
+🌍 Suporte a múltiplos idioma
 
 🤝 Contribuição
 Sinta-se livre para abrir issues, sugerir melhorias ou enviar pull requests.
