@@ -39,7 +39,7 @@ Um dashboard simples de previsão do tempo, desenvolvido com **Django**, integra
 - Crie uma conta gratuita em [https://openweathermap.org/](https://openweathermap.org/)
 - Obtenha sua **API Key**.
 
-### 🗒️ 2. Criar o arquivo `.env`
+## 🗒️ 2. Criar o arquivo `.env`
 
 Crie um arquivo chamado `.env` na raiz do projeto com o seguinte conteúdo:
 
@@ -52,36 +52,36 @@ DB_HOST=db
 DB_PORT=5432
 ```
 
-🐳 3. Subir os containers
+## 🐳 3. Subir os containers
 ```
 docker-compose up --build
 ```
-🔗 4. Acessar a aplicação
+## 🔗 4. Acessar a aplicação
 ```
 Acesse no navegador: http://localhost:8000
 ```
-🐘 Acesso ao banco PostgreSQL (opcional)
+## 🐘 Acesso ao banco PostgreSQL (opcional)
 
-Host: localhost
-Porta: 5432
-Usuário: postgres
-Senha: postgres
-Banco: weatherdb
+- Host: localhost
+- Porta: 5432
+- Usuário: postgres
+- Senha: postgres
+- Banco: weatherdb
 
-🗑️ Parar os containers
+## 🗑️ Parar os containers
 ```
 docker-compose down
 ```
 
-✅ Melhorias Futuras
-⏰ Previsão horária e semanal
-🗺️ Localização automática por IP
-🎨 Interface responsiva e aprimorada
-🌍 Suporte a múltiplos idioma
+## ✅ Melhorias Futuras
+- ⏰ Previsão horária e semanal
+- 🗺️ Localização automática por IP
+- 🎨 Interface responsiva e aprimorada
+- 🌍 Suporte a múltiplos idioma
 
-🤝 Contribuição
+## 🤝 Contribuição
 Sinta-se livre para abrir issues, sugerir melhorias ou enviar pull requests.
 
-📜 Licença
+## 📜 Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
