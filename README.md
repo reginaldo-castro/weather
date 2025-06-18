@@ -57,7 +57,8 @@ DB_PORT=5432
 docker-compose up --build
 ```
 🔗 4. Acessar a aplicação
-```Acesse no navegador: http://localhost:8000
+```
+Acesse no navegador: http://localhost:8000
 ```
 🐘 Acesso ao banco PostgreSQL (opcional)
 
